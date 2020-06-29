@@ -19,7 +19,15 @@ function changeAllValuesTo(arr, value){
 for(let i = 0; i < arr.length; i++){
   arr[i] = value;
 }
+} 
+
+function oddOrEven(arr){
+for(let i = 0; i < arr.length; i++){
+  if(arr[i] % 2 === 0){
+arr[i] = 'even'
+  }else{ arr[i]= "odd"
 }
+}}
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
  *********************************/
