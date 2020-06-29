@@ -28,6 +28,12 @@ arr[i] = 'even'
   }else{ arr[i]= "odd"
 }
 }}
+
+function changeNextThreeToValue(start, arr, end){
+  for(let i = start; i < start + 3; i++){
+arr[i] = end
+  }
+}
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
  *********************************/
