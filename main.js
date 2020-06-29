@@ -15,6 +15,11 @@ arr.pop();
 arr.push(given)
 }
 
+function changeAllValuesTo(arr, value){
+for(let i = 0; i < arr.length; i++){
+  arr[i] = value;
+}
+}
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
  *********************************/
