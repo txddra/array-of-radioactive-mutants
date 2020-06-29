@@ -6,6 +6,10 @@ function addMeToEnd(arr){
 arr.push('Colin');
 }
 
+function addMeToStart(arr){
+arr.unshift('Colin')
+}
+
 
 
 /*********************************
