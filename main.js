@@ -10,7 +10,10 @@ function addMeToStart(arr){
 arr.unshift('Colin')
 }
 
-
+function changeLast(arr,given){
+arr.pop();
+arr.push(given)
+}
 
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
