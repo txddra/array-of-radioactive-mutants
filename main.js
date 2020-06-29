@@ -31,9 +31,13 @@ arr[i] = 'even'
 
 function changeNextThreeToValue(start, arr, end){
   for(let i = start; i < start + 3; i++){
-arr[i] = end
+arr[i] = end;
   }
 }
+//alternateway
+// function changeNextThreeToValue(start,arr,value){
+//   arr.splice(start,3,value,value,value)
+// }
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
  *********************************/
